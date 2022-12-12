@@ -39,18 +39,3 @@ end
 infolder = "removed_noise_pdb"
 outfolder = "removed_hdf5"
 generate_multiple(infolder,outfolder)
-
-#Translations
-#trs_in = ["pdb_441_trsl_0.5Ang_noise", "pdb_441_trsl_1Ang_noise", 
-#"pdb_441_trsl_5Ang_noise", "pdb_441_trsl_10Ang_noise"]
-#trs_out = ["trsl_0.5Ang_noise", "trsl_1Ang_noise", "trsl_5Ang_noise", "trsl_10Ang_noise"]
-#for i in 1:length(trs_in)
-#	generate_single(trs_in[i],trs_out[i])
-#end
-
-#Rotations
-#rot_in = ["pdb_data_rot1_noise", "pdb_data_rot5_noise", "pdb_data_rot10_noise", "pdb_data_rot20_noise", "pdb_data_rot45_noise",]
-#rot_out = ["rot1_noise", "rot5_noise", "rot10_noise", "rot20_noise", "rot45_noise"]
-#for i in 1:length(rot_in)
-#	generate_single(rot_in[i],rot_out[i])
-#end
